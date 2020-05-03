@@ -1,5 +1,5 @@
 // variable for the form
-let sizeSubmitt = document.getElementById("sizePicker");
+var sizeSubmitt = document.getElementById("sizePicker");
 
 //set colored variable
 var gridColored = true;
@@ -13,11 +13,11 @@ function colorPicked (){
 
 // Select size input, returns the height and width in [h,w]
 function sizePicked (){
-	return [document.getElementById("inputHeight",).value, document.getElementById("inputWidth",).value];
+	return [document.getElementById("inputHeight").value, document.getElementById("inputWidth").value];
 }
 
 // When size is submitted by the user, call makeGrid()
-sizeSubmitt.addEventListener("submit",(event) =>{
+sizeSubmitt.addEventListener("submit",function (event){
 	event.preventDefault();
 	//checks colored squares in the grid
 	if (gridColored === true){
