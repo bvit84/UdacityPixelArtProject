@@ -1,16 +1,15 @@
-# Pixel Art Maker Project
-
+# Pixel Art Maker Project 
+###### Completed by Vitalie Burduja
 ## Table of Contents
 
-* [Instructions](#instructions)
+* [Notes](#Notes)
 * [Contributing](#contributing)
 
-## Instructions
+## Notes
 
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+HTML and CSS files to make the project were left unchanged to increase the _chalange_ of completion.
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+This repository was the starter code for _all_ Udacity students.
+Original repository: https://github.com/udacity/project-pixel-art-maker-starter
